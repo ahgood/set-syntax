@@ -14,11 +14,11 @@ function activate(context) {
 
 	supportedLanguages.forEach(command => {
 		commands[command] = vscode.commands.registerCommand(
-			`set-syntax.${command}`, () => setSyntax('javascript')
+			`set-syntax.${command}`, () => setSyntax(command)
 		)
 	});
 
-	context.subscriptions.push(Object.values(commands));
+	context.subscriptions.push(...Object.values(commands));
 }
 
 function deactivate() {}
