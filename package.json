@@ -4,7 +4,7 @@
   "repository": "https://github.com/ahgood/set-syntax",
 	"displayName": "Set Syntax",
 	"description": "Change language mode from command palette.",
-	"version": "0.0.1",
+	"version": "0.0.3",
 	"icon": "icon.png",
 	"engines": {
     "vscode": "^1.30.0"
@@ -100,8 +100,8 @@
 			{ "command": "set-syntax.html", "title": "Set Syntax: HTML"},
 			{ "command": "set-syntax.ini", "title": "Set Syntax: Ini"},
 			{ "command": "set-syntax.java", "title": "Set Syntax: Java"},
-			{ "command": "set-syntax.javascript", "title": "Set Syntax: JavaScript"},
-			{ "command": "set-syntax.javascriptreact", "title": "Set Syntax: JavaScript React"},
+			{ "command": "set-syntax.javascript", "title": "Set Syntax: JavaScript (js)"},
+			{ "command": "set-syntax.javascriptreact", "title": "Set Syntax: JavaScript React (js/jsx)"},
 			{ "command": "set-syntax.jsx", "title": "Set Syntax: JSX"},
 			{ "command": "set-syntax.json", "title": "Set Syntax: JSON"},
 			{ "command": "set-syntax.jsonc", "title": "Set Syntax: JSON with Comments"},
@@ -109,7 +109,7 @@
 			{ "command": "set-syntax.less", "title": "Set Syntax: Less"},
 			{ "command": "set-syntax.lua", "title": "Set Syntax: Lua"},
 			{ "command": "set-syntax.makefile", "title": "Set Syntax: Makefile"},
-			{ "command": "set-syntax.markdown", "title": "Set Syntax: Markdown"},
+			{ "command": "set-syntax.markdown", "title": "Set Syntax: Markdown (md)"},
 			{ "command": "set-syntax.objective-c", "title": "Set Syntax: Objective-C"},
 			{ "command": "set-syntax.objective-cpp", "title": "Set Syntax: Objective-C++"},
 			{ "command": "set-syntax.perl", "title": "Set Syntax: Perl"},
@@ -119,7 +119,7 @@
 			{ "command": "set-syntax.powershell", "title": "Set Syntax: PowerShell"},
 			{ "command": "set-syntax.jade", "title": "Set Syntax: Jade"},
 			{ "command": "set-syntax.pug", "title": "Set Syntax: Pug"},
-			{ "command": "set-syntax.python", "title": "Set Syntax: Python"},
+			{ "command": "set-syntax.python", "title": "Set Syntax: Python (py)"},
 			{ "command": "set-syntax.r", "title": "Set Syntax: R"},
 			{ "command": "set-syntax.razor", "title": "Set Syntax: Razor (cshtml)"},
 			{ "command": "set-syntax.ruby", "title": "Set Syntax: Ruby"},
@@ -132,8 +132,8 @@
 			{ "command": "set-syntax.sql", "title": "Set Syntax: SQL"},
 			{ "command": "set-syntax.stylus", "title": "Set Syntax: Stylus"},
 			{ "command": "set-syntax.swift", "title": "Set Syntax: Swift"},
-			{ "command": "set-syntax.typescript", "title": "Set Syntax: TypeScript"},
-			{ "command": "set-syntax.typescriptreact", "title": "Set Syntax: TypeScript React"},
+			{ "command": "set-syntax.typescript", "title": "Set Syntax: TypeScript (ts)"},
+			{ "command": "set-syntax.typescriptreact", "title": "Set Syntax: TypeScript React (ts)"},
 			{ "command": "set-syntax.tex", "title": "Set Syntax: TeX"},
 			{ "command": "set-syntax.vb", "title": "Set Syntax: Visual Basic"},
 			{ "command": "set-syntax.vue", "title": "Set Syntax: Vue"},
@@ -158,5 +158,4 @@
         "typescript": "^4.3.2",
         "vscode-test": "^1.5.2"
     }
-
 }
